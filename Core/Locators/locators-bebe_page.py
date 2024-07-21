@@ -28,4 +28,3 @@ class BebePageLocators:
 
 
 
-#Berços e Colchões
