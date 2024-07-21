@@ -22,7 +22,7 @@ class BebePageLocators:
 #         self.bercos = ('//div[@class="scroll-content__container category-links__slider category-links__items"]//h2[contains(text(), "Berços e Colchões")]')
 #         self.espreguicadeira = ('//div[@class="scroll-content__container category-links__slider category-links__items"]//h2[contains(text(), "Espreguiçadeira")]')
 #         self.marsupios = ('//div[@class="scroll-content__container category-links__slider category-links__items"]//h2[contains(text(), "Marsúpios")]')
-###         self.saude_do_bebe = ('//div[@class="scroll-content__container category-links__slider category-links__items"]//h2[contains(text(), "Saúde do Bebé")]')
+#         self.saude_do_bebe = ('//div[@class="scroll-content__container category-links__slider category-links__items"]//h2[contains(text(), "Saúde do Bebé")]')
 
 
 
