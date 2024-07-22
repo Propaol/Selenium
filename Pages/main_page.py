@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from Core.locators.locators_main_page import BaseLocatorsMainMenu as BaseLocators
+from Core.Locators.locators_main_page import BaseLocatorsMainMenu as BaseLocators
 from Core import cookies_class, local_storage
 from selenium.webdriver import Keys
 import time
