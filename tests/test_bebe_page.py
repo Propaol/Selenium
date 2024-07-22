@@ -1,3 +1,4 @@
+import time
 
 from Core.Locators.locators_bebe_page import BebePageLocators
 from Pages.bebe_page import Bebe
@@ -7,7 +8,7 @@ def test_fraldas_page(bebe_page_fixture):
     bebe_page = Bebe(bebe_page_fixture)
     bebe_page.go_to_category_page(BebePageLocators().fraldas)
 
-    fraldas_url = 'https://www.worten.pt/beleza-saude-e-bebe/bebe/banho-e-higiene/fraldas?tipologia=Fraldas'
+    fraldas_url = 'https://www.worten.pt/beleza-saude-e-bebe/bebe/banho-e-higiene/fraldas'
     assert bebe_page.get_current_url() == fraldas_url
 
     header_text = bebe_page.get_header_text('//h1')
@@ -82,7 +83,9 @@ def test_marsupios_page(bebe_page_fixture):
 
 def test_saude_do_bebe_page(bebe_page_fixture):
     bebe_page = Bebe(bebe_page_fixture)
+    time.sleep(2)
     bebe_page.go_to_category_page(BebePageLocators().saude_do_bebe)
+
 
     saude_do_bebe_url = 'https://www.worten.pt/beleza-saude-e-bebe/bebe/protecao-e-saude-do-bebe'
     assert bebe_page.get_current_url() == saude_do_bebe_url

@@ -52,6 +52,7 @@ def products_menu(setup_driver):
 @pytest.fixture()
 def servico_menu(setup_driver):
     driver = setup_driver
+    driver.maximize_window()
     servico_menu = WebDriverWait(driver, 10).until(
         EC.element_to_be_clickable(
             (By.XPATH,
@@ -68,6 +69,7 @@ def wait(setup_driver):
 @pytest.fixture()
 def bebe_page_fixture():
     driver = webdriver.Chrome()
+    driver.maximize_window()
     driver.get('https://www.worten.pt/beleza-saude-e-bebe/bebe')
     wait = WebDriverWait(driver, 10)
     accept_cookie = wait.until(EC.presence_of_element_located(
