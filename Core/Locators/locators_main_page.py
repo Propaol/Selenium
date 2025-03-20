@@ -1,0 +1,26 @@
+
+class BaseLocatorsMainMenu:
+    '''Main Page locators'''
+    def __init__(self):
+        self.search = ('ID', 'search')
+        self.accept = ('xpath', '//button[@class="button--primary button--md button--black button"]')
+        self.electrodomesticos = ('//h2[contains(text(), "Eletrodomésticos de Encastre")]')
+        self.bebe = ('//h2[contains(text(), "Bebé")]')
+        self.desporto_outdoor = ('//h2[contains(text(), "Desporto e Outdoor")]')
+        self.casa_decoracao = ('//h2[contains(text(), "Casa e Decoração")]')
+        self.bricolage = ('//h2[contains(text(), "Bricolage")]')
+        self.perfumaria = ('//h2[contains(text(), "Perfumaria e Cosmética")]')
+        self.moda = ('//h2[contains(text(), "Moda")]')
+        self.animals = ('//h2[contains(text(), "Animais de estimação")]')
+        self.jogos = ('//h2[contains(text(), "Jogos e Brinquedos")]')
+        self.jardim = ('//h2[contains(text(), "Jardim")]')
+        self.escritorio = ('//h2[contains(text(), "Escritório")]')
+        self.tv_and_smartphones = ('//h2[contains(text(), "Telemóveis e Smartphones")]')
+        self.computers_and_laptops = ('//h2[contains(text(), "Computadores e Portáteis")]')
+        self.tv = ('//h2[contains(text(), "TVs")]')
+        self.gaming = ('//h2[contains(text(), "Gaming")]')
+        self.maquinas_lavar = ('//h2[contains(text(), "Máquinas Lavar e Secar")]')
+        self.preparacio_de_alimentos = ('//h2[contains(text(), "Preparação de Alimentos")]')
+        self.aspiradores = ('//h2[contains(text(), "Aspiradores")]')
+        self.aquecedores_conditioners = ('//h2[contains(text(), "Aquecedores e Ar Condicionado")]')
+        self.smartwatches = ('//h2[contains(text(), "Smartwatches")]')

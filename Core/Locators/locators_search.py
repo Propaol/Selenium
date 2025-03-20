@@ -1,0 +1,16 @@
+class Search:
+    '''Search locators'''
+    def __init__(self):
+        self.search_field = 'search'
+        self.search_menu_check_box_container = 'checkbox__container'
+        self.search_menu_memory = '//div[@class="accordion accordion--borders accordion--compact accordion--opened accordion--light facet-filter__accordion"]//ul[@data-facet-label="Memória Interna"]//li[@class="facet-filter__parent"]'
+        self.search_menu_brand = '//div[@class="accordion accordion--borders accordion--compact accordion--opened accordion--light facet-filter__accordion"]//ul[@data-facet-label="Todas as Marcas"]//li[@class="facet-filter__parent"]'
+        self.search_menu_model = '//div[@class="accordion accordion--borders accordion--compact accordion--opened accordion--light facet-filter__accordion"]//ul[@data-facet-label="Modelo"]//li[@class="facet-filter__parent"]'
+        self.search_menu_price = '//div[@id="accordion__content-price_range"]//ul[@data-facet-label="Preço"]//li[@class="facet-filter__parent"]'
+        self.search_menu_melhores = '//div[@class="accordion accordion--borders accordion--compact accordion--opened accordion--light facet-filter__accordion"]//ul[@data-facet-label="Melhores Escolhas"]//li[@class="facet-filter__parent"]'
+        self.search_menu_estimate = '//div[@class="accordion accordion--borders accordion--compact accordion--opened accordion--light facet-filter__accordion"]//ul[@data-facet-label="Entrega estimada"]//li[@class="facet-filter__parent"]'
+        self.search_menu_estado = '//div[@class="accordion accordion--borders accordion--compact accordion--opened accordion--light facet-filter__accordion"]//ul[@data-facet-label="Estado"]//li[@class="facet-filter__parent"]'
+        self.search_menu_ram = '//div[@class="accordion accordion--borders accordion--compact accordion--opened accordion--light facet-filter__accordion"]//ul[@data-facet-label="RAM"]//li[@class="facet-filter__parent"]'
+        self.search_menu_colour = '//div[@class="accordion accordion--borders accordion--compact accordion--opened accordion--light facet-filter__accordion"]//ul[@data-facet-label="Cor"]//li[@class="facet-filter__parent"]'
+        self.search_menu_mais_caracteristicas = '//div[@class="accordion accordion--borders accordion--compact accordion--opened accordion--light facet-filter__accordion"]//ul[@data-facet-label="Mais Características"]//li[@class="facet-filter__parent"]'
+        self.search_menu_vendedores = '//div[@class="accordion accordion--borders accordion--compact accordion--opened accordion--light facet-filter__accordion"]//ul[@data-facet-label="Vendedores"]//li[@class="facet-filter__parent"]'
